@@ -7,7 +7,7 @@ public class Position {
 	
 	public Position(int row, int column) {
 		this.row = row;
-		column = column;
+		this.column = column;
 	}
 
 	public int getRow() {
@@ -23,8 +23,9 @@ public class Position {
 	}
 
 	public void setColumn(int column) {
-		column = column;
+		this.column = column;
 	}
+	
 
 	@Override
 	public String toString() {

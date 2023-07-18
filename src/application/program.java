@@ -1,5 +1,6 @@
 package application;
 
+import Chess.ChessMatch;
 import boardgame.Board;
 import boardgame.Position;
 
@@ -7,7 +8,7 @@ public class program {
 
 	public static void main(String[] args) {
 
-		Board board = new Board(8, 8);
-		System.out.println(board);
+		ChessMatch CM = new ChessMatch();
+		UI.printBoard(CM.getPieces());
 	}
 }
